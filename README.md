@@ -4,43 +4,28 @@
 
 ### Shapiro-Wilk Test
 
-The Shapiro–Wilk test is a test of normality. It was published in 1965 by Samuel Sanford Shapiro and Martin Wilk. The test evaluates the null hypothesis that a given sample \( x_1, x_2, ..., x_n \) originates from a normally distributed population.
+The Shapiro–Wilk test is a statistical test used to determine whether a given dataset follows a normal distribution. It was introduced in 1965 by Samuel Sanford Shapiro and Martin Wilk. The test evaluates the null hypothesis that a sample comes from a normally distributed population.
 
-### Shapiro-Wilk Test Statistic Calculation
-
-To calculate the Shapiro-Wilk test statistic \( W \), follow the procedure below:
-
-#### Procedure
+### Steps to Perform the Shapiro-Wilk Test
 
 1. **Sort the Sample:**
-   - Given a sample of size \( n \): \( x_1, x_2, \dots, x_n \).
-   - Sort the sample in increasing order to obtain \( y_1, y_2, \dots, y_n \), where \( y_1 < y_2 < \dots < y_n \).
+   - Arrange the data in ascending order.
 
-2. **Calculate the Sum \( b \):**
-   - **If \( n \) is even:**
-     - Compute \( b \) using \( k = \frac{n}{2} \):
-       
-       \[
-       b = \sum_{i=1}^{k} a_{n-i+1} (y_{n-i+1} - y_i)
-       \]
-   - **If \( n \) is odd:**
-     - Compute \( b \) using \( k = \frac{n-1}{2} \).
-     - **Note:** The median must not be included in the calculation.
-   
-   The coefficients \( a_{n-i+1} \) depend on the sample size \( n \) and can be obtained from the table published by Shapiro and Wilk.
+2. **Compute the Test Statistic:**
+   - Use specific coefficients based on the sample size to calculate the test statistic.
+   - The calculation involves the ordered data values and their expected values if they were normally distributed.
 
-3. **Calculate the Test Statistic \( W \):**
-   
-   \[
-   W = \frac{b^2}{S^2}
-   \]
-   
-   where \( S^2 \) is the sample variance.
+3. **Determine the Sample Variance:**
+   - Compute how much the data deviates from its mean.
 
-4. **Interpret the Result:**
-   - Compare the calculated \( W \) with the critical threshold from the Shapiro-Wilk table.
-   - If \( W \) is smaller than the critical threshold, the assumption of a normal distribution is rejected.
+4. **Compare with Critical Values:**
+   - The test statistic is compared with critical values from the Shapiro-Wilk table.
+   - If the statistic is below the threshold, the normality assumption is rejected.
+
+### Interpretation
+- If the test statistic is high, the data is likely to be normally distributed.
+- If the test statistic is low, the data deviates significantly from a normal distribution, and the normality assumption is rejected.
 
 ### Notes
-- Ensure you refer to the Shapiro-Wilk table for the correct coefficients \( a_{n-i+1} \) and critical thresholds.
-- This test is commonly used to assess the normality of a dataset.
+- The test is widely used to assess whether a dataset follows a normal distribution before applying parametric statistical methods.
+- The coefficients used in the calculation are predetermined based on the sample size and are referenced from statistical tables.
