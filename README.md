@@ -102,6 +102,3 @@ Add up all the values you calculated in the previous step. This sum is the Pears
 
 **Determine Degrees of Freedom**:
 The degrees of freedom depend on the number of categories in your data. For a goodness-of-fit test, the degrees of freedom are calculated as the number of categories minus one. This value is important because it helps determine the critical value or p-value for the test.
-
-**Interpret the Result**:
-Compare the Chi-Squared statistic to a critical value from the Chi-Squared distribution table, or calculate the p-value. If the Chi-Squared statistic is larger than the critical value (or if the p-value is smaller than your significance level, e.g., 0.05), you reject the null hypothesis. This means there is a significant difference between the observed and expected frequencies. If not, you fail to reject the null hypothesis, meaning the observed frequencies are consistent with the expected frequencies.
