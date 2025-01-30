@@ -13,7 +13,7 @@ class Shapiro_Wilk:
         Calculate the coefficients for the Shapiro-Wilk test.
         n = number of samples
         a = coefficients
-        n 3 to 20 if u want to calculate for more than 20 samples https://real-statistics.com/statistics-tables/shapiro-wilk-table/
+        n 3 to 20 if u want to calculate for more than 20 samples to 50 samples https://real-statistics.com/statistics-tables/shapiro-wilk-table/
         """
         a = {
             3: [0.7071],
