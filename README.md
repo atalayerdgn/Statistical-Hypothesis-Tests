@@ -81,3 +81,27 @@ In statistics, the Pearson correlation coefficient (PCC)[a] is a correlation coe
 
 **Calculate the Pearson's Correlation Coeff**
 
+
+### Pearsons Chi-Squared Test
+
+Pearson's chi-squared test or Pearson's χ2 test is a statistical test applied to sets of categorical data to evaluate how likely it is that any observed difference between the sets arose by chance. It is the most widely used of many chi-squared tests (e.g., Yates, likelihood ratio, portmanteau test in time series, etc.) – statistical procedures whose results are evaluated by reference to the chi-squared distribution. Its properties were first investigated by Karl Pearson in 1900. In contexts where it is important to improve a distinction between the test statistic and its distribution, names similar to Pearson χ-squared test or statistic are used.
+
+## Steps
+
+**Prepare the Data**:
+You start with two sets of frequencies: the observed frequencies and the expected frequencies. The observed frequencies are the actual counts you collected from your data. The expected frequencies are the counts you would expect to see if the null hypothesis were true. For example, if you're testing whether a die is fair, the expected frequency for each face of the die would be the same.
+
+**Check the Totals**:
+Before proceeding, you need to make sure that the total of the observed frequencies matches the total of the expected frequencies. If they don't match, you must adjust the expected frequencies so that their total equals the total of the observed frequencies. This is done by scaling the expected frequencies proportionally.
+
+**Calculate the Differences**:
+For each category, subtract the expected frequency from the observed frequency. This gives you the difference between what you observed and what you expected. Square this difference to make sure it's positive, and then divide it by the expected frequency. This step measures how much each category deviates from what was expected, relative to the expected frequency.
+
+**Sum the Values**:
+Add up all the values you calculated in the previous step. This sum is the Pearson Chi-Squared statistic. It represents the overall difference between the observed and expected frequencies across all categories.
+
+**Determine Degrees of Freedom**:
+The degrees of freedom depend on the number of categories in your data. For a goodness-of-fit test, the degrees of freedom are calculated as the number of categories minus one. This value is important because it helps determine the critical value or p-value for the test.
+
+**Interpret the Result**:
+Compare the Chi-Squared statistic to a critical value from the Chi-Squared distribution table, or calculate the p-value. If the Chi-Squared statistic is larger than the critical value (or if the p-value is smaller than your significance level, e.g., 0.05), you reject the null hypothesis. This means there is a significant difference between the observed and expected frequencies. If not, you fail to reject the null hypothesis, meaning the observed frequencies are consistent with the expected frequencies.
