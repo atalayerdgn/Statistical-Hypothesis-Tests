@@ -102,3 +102,14 @@ Add up all the values you calculated in the previous step. This sum is the Pears
 
 **Determine Degrees of Freedom**:
 The degrees of freedom depend on the number of categories in your data. For a goodness-of-fit test, the degrees of freedom are calculated as the number of categories minus one. This value is important because it helps determine the critical value or p-value for the test.
+
+
+# Stationary Tests
+
+### Augmented Dickey-Fuller Test
+
+In statistics, an augmented Dickey–Fuller test (ADF) tests the null hypothesis that a unit root is present in a time series sample. The alternative hypothesis depends on which version of the test is used, but is usually stationarity or trend-stationarity. It is an augmented version of the Dickey–Fuller test for a larger and more complicated set of time series models.
+
+
+## Steps
+
