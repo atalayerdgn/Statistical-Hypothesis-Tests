@@ -104,12 +104,26 @@ Add up all the values you calculated in the previous step. This sum is the Pears
 The degrees of freedom depend on the number of categories in your data. For a goodness-of-fit test, the degrees of freedom are calculated as the number of categories minus one. This value is important because it helps determine the critical value or p-value for the test.
 
 
-# Stationary Tests
-
-### Augmented Dickey-Fuller Test
-
-In statistics, an augmented Dickey–Fuller test (ADF) tests the null hypothesis that a unit root is present in a time series sample. The alternative hypothesis depends on which version of the test is used, but is usually stationarity or trend-stationarity. It is an augmented version of the Dickey–Fuller test for a larger and more complicated set of time series models.
+# Parametric Statistical Hypothesis Tests
 
 
-## Steps
+### One Sampled T-Test
+
+A one-sample t-test is a location test of whether the mean of a population has a value specified in a null hypothesis. In testing the null hypothesis that the population mean is equal to a specified value μ0, one uses the statistic
+
+## Steps
+
+**Step 1**: State the hypotheses. The null hypothesis (H₀) is that the sample mean equals the population mean. The alternative (H₁) could be two-tailed or one-tailed, depending on whether they expect a difference in a specific direction.
+
+**Step 2**: Set the significance level (α). Usually 0.05, but it's good to mention that it can vary.
+
+**Step 3**: Collect data. Make sure the sample is random and meets the assumptions like normality, especially for small samples. Maybe mention checking normality with a Shapiro-Wilk test or QQ plot if the sample size is small.
+
+**Step 4**: Calculate the t-statistic. The formula is (sample mean - population mean) divided by (sample standard deviation over sqrt(n)).
+
+**Step 5**: Determine the critical value or p-value. Compare the calculated t-value to the critical value from the t-distribution table or use the p-value to decide.
+
+**Step 6**: Make a decision. If the test statistic is more extreme than the critical value or p < α, reject H₀.
+
+**Step 7**: Interpret the results in context. Explain what rejecting or failing to reject H₀ means for their study.
 
