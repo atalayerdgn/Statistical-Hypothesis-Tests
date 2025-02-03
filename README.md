@@ -26,6 +26,9 @@ This repository provides Python implementations for key statistical hypothesis t
 1. One-Sample T-Test
 2. ANOVA
 
+### Non-Parametric Tests
+1. Mann Whitney U Test
+
 ---
 
 ## 📥 Installation

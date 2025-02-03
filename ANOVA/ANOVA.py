@@ -4,6 +4,12 @@ class ANOVA:
     def __init__(self):
         pass
     def anova_test(self, groups, alpha=0.05):
+        """
+        Perform one-way ANOVA test on the given groups.
+        groups: List of lists of numbers. Each list represents a group.
+        alpha: Significance level.
+        Returns a dictionary containing the ANOVA table.
+        """
         k = len(groups)
         if k < 2:
             raise ValueError("ANOVA requires at least two groups.")
