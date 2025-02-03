@@ -6,15 +6,9 @@ This repository provides Python implementations for key statistical hypothesis t
 
 ## 📋 Table of Contents
 - [Statistical Tests Included](#statistical-tests-included)
-- [Installation](#installation)
-- [Usage Examples](#usage-examples)
-- [Test Details](#test-details)
   - [Normality Tests](#normality-tests)
   - [Correlation Tests](#correlation-tests)
   - [Parametric Tests](#parametric-tests)
-- [Inputs & Outputs](#inputs--outputs)
-- [Assumptions & Notes](#assumptions--notes)
-- [References](#references)
 
 ---
 
