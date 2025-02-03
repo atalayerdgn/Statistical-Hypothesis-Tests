@@ -9,6 +9,7 @@ This repository provides Python implementations for key statistical hypothesis t
   - [Normality Tests](#normality-tests)
   - [Correlation Tests](#correlation-tests)
   - [Parametric Tests](#parametric-tests)
+  - [Non-Parametric Tests](#non-parametric-tests)
 
 ---
 
